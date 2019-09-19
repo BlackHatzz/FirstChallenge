@@ -214,9 +214,7 @@
         <div class="full-Card" style="background-color:#121217 ">
             <div class="full-Card-Content">
                 <h2 class="full-Card" style="color:white">MacBook Pro<%=name%></h2>
-                <h3 class="full-Card"style="color:white">More power.
-                    More performance.
-                    More pro.<%=title%></h3>
+                <h3 class="full-Card"style="color:white">More power.<br>More performance.<br>More pro.&nbsp;</h3>
             </div>
             <ul class="full-Card">
                 <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
@@ -231,7 +229,7 @@
             <div class="full-Card" style="width: 650px;margin:0px;padding:0px; position: relative;z-index: 1">
                 <div class="full-Card-Content">
                     <p style="text-align: center;color: #ef5602;font-size: 24px;font-family: sans-serif; ">Offer Ends 9/26</p>
-                    <h2 class="full-Card" style="margin-left: 30px;margin-right: 40px;font-size: 48px;font-family: sans-serif;">Buy a Mac for college. Get Beats.</h2>
+                    <h2 class="full-Card" style="margin-left: 30px;margin-right: 40px;font-size: 48px;font-family: sans-serif;">Buy a Mac for&nbsp;college. Get&nbsp;Beats.</h2>
                     <p style="text-align: center;font-size: 21px;font-family: sans-serif;">Save up to $200 on a Mac with education pricing, 20% off AppleCare+, discounts on Apple Music, and more.</p>
                     <p style="text-align: center;font-size: 21px;font-family: sans-serif;"><a href="#" style="text-decoration: none;"><span>Shop</span></a></p>
                 </div>
