@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css" href="css/ahaft-card.css"/>
     </head>
     <body>
-        <%@include file="navbar.jsp" %>
+        
         <%@include file="product_intro_card.jsp" %>
         
     </body>
