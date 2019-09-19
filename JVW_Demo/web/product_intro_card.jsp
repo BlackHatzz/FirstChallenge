@@ -67,7 +67,7 @@
                 font-weight: 400;
                 letter-spacing: .011em;
                 text-align: center;
-                 font-family: sans-serif;
+                font-family: sans-serif;
             }
             a.full-Card {
                 text-decoration: none;
@@ -78,7 +78,7 @@
             .full-Card span {
                 font-size: 24px;
                 text-align: center;
-                 font-family: sans-serif;
+                font-family: sans-serif;
             }
             ul.full-Card{
                 text-align: center;
@@ -86,14 +86,15 @@
                 list-style-type: none;
                 display: flex;
                 flex-direction: row;
+                background-repeat: no-repeat;
             }
             .full-Card-Content h2.full-Card {
                 margin-left: 100px;
                 margin-right: 100px;
-                 font-family: sans-serif;
+                font-family: sans-serif;
             }
             .full-Card-Content h3.full-Card {
-                 font-family: sans-serif;
+                font-family: sans-serif;
                 margin-left: 100px;
                 margin-right: 100px;
             }
@@ -103,6 +104,7 @@
                 width: 1232px;
                 height: 407px;
                 background-size: cover;
+                background-repeat: no-repeat;
             }
             figure.full-Card3{
 
@@ -110,6 +112,18 @@
                 background-image: url("images/mac/full-card/macbook_pro.jpg");
                 width: 1256px;
                 height: 512px;
+                background-repeat: no-repeat;
+            }
+            figure.full-Card4{
+                width: 1380px;
+                height: 665px;
+                background-size: 1380px 665px;
+                background-repeat: no-repeat;
+                background-image: url("images/mac/full-card/macbook_for_college.jpg");
+                left: 0px;
+                position: relative;
+                z-index: 2;
+                margin: 0px;
             }
             figure.full-Card5{
 
@@ -117,6 +131,7 @@
                 background-image: url("images/mac/full-card/mac_pro_hero.jpg");
                 width: 960px;
                 height: 524px;
+                background-repeat: no-repeat;
             }
             figure.full-Card6{
 
@@ -124,6 +139,7 @@
                 background-image: url("images/mac/full-card/xdr_display_hero.jpg");
                 width: 980px;
                 height: 726px;
+                background-repeat: no-repeat;
             }
             figure.full-Card7{
 
@@ -131,6 +147,7 @@
                 background-image: url("images/mac/full-card/mac_os.jpg");
                 width: 1374px;
                 height: 493px;
+                background-repeat: no-repeat;
             }
 
             figure.full-Card8{
@@ -141,7 +158,8 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                
+                background-repeat: no-repeat;
+
             }
             figure.full-Card8 div h2{
                 padding-top: 217px;
@@ -196,9 +214,7 @@
         <div class="full-Card" style="background-color:#121217 ">
             <div class="full-Card-Content">
                 <h2 class="full-Card" style="color:white">MacBook Pro<%=name%></h2>
-                <h3 class="full-Card"style="color:white">More power.
-                    More performance.
-                    More pro.<%=title%></h3>
+                <h3 class="full-Card"style="color:white">More power.<br>More performance.<br>More pro.&nbsp;</h3>
             </div>
             <ul class="full-Card">
                 <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
@@ -208,6 +224,18 @@
             </figure>
         </div>
         <!--task 4 -->
+        <div  style="display: flex;flex-direction: row; align-items: left;margin: 0px;">
+            <figure class="full-Card4"></figure>
+            <div class="full-Card" style="width: 650px;margin:0px;padding:0px; position: relative;z-index: 1">
+                <div class="full-Card-Content">
+                    <p style="text-align: center;color: #ef5602;font-size: 24px;font-family: sans-serif; ">Offer Ends 9/26</p>
+                    <h2 class="full-Card" style="margin-left: 30px;margin-right: 40px;font-size: 48px;font-family: sans-serif;">Buy a Mac for&nbsp;college. Get&nbsp;Beats.</h2>
+                    <p style="text-align: center;font-size: 21px;font-family: sans-serif;">Save up to $200 on a Mac with education pricing, 20% off AppleCare+, discounts on Apple Music, and more.</p>
+                    <p style="text-align: center;font-size: 21px;font-family: sans-serif;"><a href="#" style="text-decoration: none;"><span>Shop</span></a></p>
+                </div>
+
+            </div>
+        </div>
 
         <!--task 5 -->
         <div class="full-Card" style="background-color: rgb(250,248,247);">
@@ -254,12 +282,12 @@
                     <h2>macOS Mojave</h2>
                     <h3>Simply powerful.</h3>
                     <p>Featuring Dark Mode, pro-inspired features, four new apps, and a redesigned Mac App Store.</p>
-                    
+
                 </div>
                 <ul class="full-Card">
-                        <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
-                        <li><a class="full-Card" href="#"><span>Upgrade now ></span></a></li>
-                    </ul>
+                    <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
+                    <li><a class="full-Card" href="#"><span>Upgrade now ></span></a></li>
+                </ul>
             </figure>
         </div>
     </body>
