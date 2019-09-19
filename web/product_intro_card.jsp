@@ -29,7 +29,7 @@
                 background-color: rgba(242,242,242,0.7);
                 padding:55px 0px;
                 margin: 30px 0px 0px;
-                
+
             }
             div.full-Card-Content{
                 max-width: 80%;
@@ -63,7 +63,7 @@
                 text-align: center;
                 font-family: sans-serif;
             }
-                 
+
             ul.full-Card{
                 text-align: center;
                 text-transform: none;
@@ -81,7 +81,7 @@
                 font-family: sans-serif;
                 margin-left: 100px;
                 margin-right: 100px;
-                
+
             }
             figure.full-Card2{
                 background-color: rgb(250,250,250);
@@ -168,6 +168,15 @@
                 text-align: center;
                 font-family: sans-serif;
             }
+            .mediumCard{
+                font-size:24px;
+                text-align: center;
+
+            }
+            .smallCard{
+                font-size:21px;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -179,9 +188,9 @@
                 </h2>
                 <p class ="full-Card">Save up to $200 on a Mac and get Beats on us. Offer ends 9/26.</p>
             </div>
-            
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Shop</span> <span class="detail-link"> &#10217</span></a>
-            
+
+            <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCard">Shop</span> <span class="detail-link smallCard"> &#10217</span></a>
+
         </div>
         <!--task 2 -->
         <div class="full-Card" style="background-color: rgb(250,248,247);">
@@ -189,10 +198,12 @@
                 <h2 class="full-Card">MacBook Air</h2>
                 <h3 class="full-Card">Lightness strikes again.</h3>
             </div>
-            <ul class="full-Card">
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Shop</span> <span class="detail-link"> &#10217</span></a>
-            </ul>
+            <div style="display: flex;flex-direction: row;align-items: center;">
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="detail-link mediumCard" style="margin-right: 13.6px;"> &#10217</span></a>
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard">Buy</span> <span class="detail-link mediumCard"> &#10217</span></a>
+            </div>
+
+
             <figure class="full-Card2"></figure>
         </div>
         <!--task 3 -->
@@ -201,10 +212,10 @@
                 <h2 class="full-Card" style="color:white">MacBook Pro</h2>
                 <h3 class="full-Card"style="color:white">More power.<br>More performance.<br>More pro.&nbsp;</h3>
             </div>
-            <ul class="full-Card">
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Buy</span> <span class="detail-link"> &#10217</span></a>
-            </ul>
+            <div style="display: flex;flex-direction: row;align-items: center;">
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="detail-link mediumCard" style="margin-right: 13.6px;"> &#10217</span></a>
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard">Buy</span> <span class="detail-link mediumCard"> &#10217</span></a>
+            </div>
             <figure class="full-Card3">
             </figure>
         </div>
@@ -216,7 +227,7 @@
                     <p style="text-align: center;color: #ef5602;font-size: 24px;font-family: sans-serif; ">Offer Ends 9/26</p>
                     <h2 class="full-Card" style="margin-left: 30px;margin-right: 40px;font-size: 48px;font-family: sans-serif;">Buy a Mac for&nbsp;college. Get&nbsp;Beats.</h2>
                     <p style="text-align: center;font-size: 21px;font-family: sans-serif;">Save up to $200 on a Mac with education pricing, 20% off AppleCare+, discounts on Apple Music, and more.</p>
-                    <p style="text-align: center;font-size: 21px;font-family: sans-serif;"><a href="#" class="detail-link"><span class="detail-link detail-link-title">Shop</span> <span class="detail-link"> &#10217</span></a></p>
+                    <p style="text-align: center;font-size: 21px;font-family: sans-serif;"><a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Shop</span> <span class="mediumCard detail-link"> &#10217</span></a></p>
                 </div>
 
             </div>
@@ -227,9 +238,9 @@
                 <h2 class="full-Card" >Mac Pro</h2>
                 <h3 class="full-Card">Power to change everything.</h3>
             </div>
-            <ul class="full-Card">
-                <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
-            </ul>
+           
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="detail-link mediumCard"> &#10217</span></a>
+            
             <figure class="full-Card5"></figure>
         </div>
         <!--task 6 -->
@@ -238,9 +249,9 @@
                 <h2 class="full-Card" >Pro Display XDR</h2>
                 <h3 class="full-Card">Believing is seeing.</h3>
             </div>
-            <ul class="full-Card">
-                <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
-            </ul>
+           
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class=" mediumCard detail-link"> &#10217</span></a>
+            
             <figure class="full-Card6"></figure>
         </div>
         <!--task 7 -->
@@ -250,12 +261,12 @@
                 <h3 class="full-Card">The power of Mac.<br>Taken further.
                 </h3>
             </div>
-            <ul class="full-Card">
-                <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
-            </ul>
+            
+               <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="mediumCard detail-link"> &#10217</span></a>
+            
             <figure class="full-Card7"></figure>
         </div>
-        
+
         <!--task 8 -->
         <div class="full-Card" style="background-color: rgb(250,248,247);">
             <div class="full-Card-Content">
@@ -269,10 +280,10 @@
                     <p>Featuring Dark Mode, pro-inspired features, four new apps, and a redesigned Mac App Store.</p>
 
                 </div>
-                <ul class="full-Card">
-                    <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
-                    <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Upgrade now</span> <span class="detail-link"> &#10217</span></a></li>
-                </ul>
+                <div style="display: flex;flex-direction: row;align-items: center;">
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCardCard">Learn more</span> <span class="detail-link smallCard" style="margin-right: 13.6px;"> &#10217</span></a>
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCardCard">Upgrade now</span> <span class="detail-link smallCard"> &#10217</span></a>
+            </div>
             </figure>
         </div>
 
@@ -303,7 +314,7 @@
         <div class="wrapper" style="justify-content: center">
             <h2 class="cart-header">Get more out of Mac</h2>
         </div>
-        
+
 
         <div class="wrapper">
 
@@ -358,5 +369,5 @@
 
 
 
-   
+
 </html>
