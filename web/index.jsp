@@ -9,10 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Mac</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/ahaft-card.css"/>
     </head>
     <body>
-        
+        <%@include file="navbar.jsp" %>
         <%@include file="product_intro_card.jsp" %>
         
     </body>
