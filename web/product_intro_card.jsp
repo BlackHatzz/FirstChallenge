@@ -102,7 +102,6 @@
         </div>
         
         
-=======
     <%
         String name = "";
         String title = "";
@@ -386,6 +385,6 @@
                 </ul>
             </figure>
         </div>
->>>>>>> mergeCode
+
     </body>
 </html>

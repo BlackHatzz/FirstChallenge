@@ -1,0 +1,17 @@
+SMAP
+product_005fintro_005fcard_jsp.java
+JSP
+*S JSP
+*F
++ 0 product_intro_card.jsp
+product_intro_card.jsp
+*L
+1,4:44
+8,98:47
+106,6:146
+111,188:152
+299,2:340,3
+301,10:346
+311:356,3
+312,80:359
+*E
