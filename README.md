@@ -1,2 +1,0 @@
-# FirstChallenge
-Halo
