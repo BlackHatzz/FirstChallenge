@@ -20,6 +20,9 @@ p {
     font-family: sans-serif;
     font-weight: lighter;
 }
+a {
+    text-decoration: none;
+}
 
 div.wrapper {
     width: 100%;
@@ -81,6 +84,7 @@ a span.detail-link {
 
     display:inline-block;
     padding-bottom: 1px;
+    text-decoration: none;
 }
 .ahaft-card-box a {
     text-decoration: none;

@@ -29,6 +29,7 @@
                 background-color: rgba(242,242,242,0.7);
                 padding:55px 0px;
                 margin: 30px 0px 0px;
+                
             }
             div.full-Card-Content{
                 max-width: 80%;
@@ -62,17 +63,7 @@
                 text-align: center;
                 font-family: sans-serif;
             }
-            a.full-Card {
-                text-decoration: none;
-            }
-            a.full-Card:hover{
-                text-decoration: underline;
-            }
-            .full-Card span {
-                font-size: 24px;
-                text-align: center;
-                font-family: sans-serif;
-            }
+                 
             ul.full-Card{
                 text-align: center;
                 text-transform: none;
@@ -90,6 +81,7 @@
                 font-family: sans-serif;
                 margin-left: 100px;
                 margin-right: 100px;
+                
             }
             figure.full-Card2{
                 background-color: rgb(250,250,250);
@@ -187,9 +179,9 @@
                 </h2>
                 <p class ="full-Card">Save up to $200 on a Mac and get Beats on us. Offer ends 9/26.</p>
             </div>
-            <ul class="full-Card">
-                <li><a class="full-Card" href="#"><span>Shop ></span></a></li>
-            </ul>
+            
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Shop</span> <span class="detail-link"> &#10217</span></a>
+            
         </div>
         <!--task 2 -->
         <div class="full-Card" style="background-color: rgb(250,248,247);">
@@ -198,8 +190,8 @@
                 <h3 class="full-Card">Lightness strikes again.</h3>
             </div>
             <ul class="full-Card">
-                <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
-                <li><a class="full-Card" href="#" style="margin-left:20px;"><span>Buy ></span></a></li>
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Shop</span> <span class="detail-link"> &#10217</span></a>
             </ul>
             <figure class="full-Card2"></figure>
         </div>
@@ -210,8 +202,8 @@
                 <h3 class="full-Card"style="color:white">More power.<br>More performance.<br>More pro.&nbsp;</h3>
             </div>
             <ul class="full-Card">
-                <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
-                <li><a class="full-Card" href="#" style="margin-left:20px;"><span>Buy </span></a></li>
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Buy</span> <span class="detail-link"> &#10217</span></a>
             </ul>
             <figure class="full-Card3">
             </figure>
@@ -224,7 +216,7 @@
                     <p style="text-align: center;color: #ef5602;font-size: 24px;font-family: sans-serif; ">Offer Ends 9/26</p>
                     <h2 class="full-Card" style="margin-left: 30px;margin-right: 40px;font-size: 48px;font-family: sans-serif;">Buy a Mac for&nbsp;college. Get&nbsp;Beats.</h2>
                     <p style="text-align: center;font-size: 21px;font-family: sans-serif;">Save up to $200 on a Mac with education pricing, 20% off AppleCare+, discounts on Apple Music, and more.</p>
-                    <p style="text-align: center;font-size: 21px;font-family: sans-serif;"><a href="#" style="text-decoration: none;"><span>Shop</span></a></p>
+                    <p style="text-align: center;font-size: 21px;font-family: sans-serif;"><a href="#" class="detail-link"><span class="detail-link detail-link-title">Shop</span> <span class="detail-link"> &#10217</span></a></p>
                 </div>
 
             </div>
@@ -236,7 +228,7 @@
                 <h3 class="full-Card">Power to change everything.</h3>
             </div>
             <ul class="full-Card">
-                <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
+                <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
             </ul>
             <figure class="full-Card5"></figure>
         </div>
@@ -247,7 +239,7 @@
                 <h3 class="full-Card">Believing is seeing.</h3>
             </div>
             <ul class="full-Card">
-                <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
+                <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
             </ul>
             <figure class="full-Card6"></figure>
         </div>
@@ -255,13 +247,33 @@
         <div class="full-Card" style="background-color: rgb(250,248,247);">
             <div class="full-Card-Content">
                 <h2 class="full-Card">macOS Catalina</h2>
-                <h3 class="full-Card">The power of Mac. Taken further.
+                <h3 class="full-Card">The power of Mac.<br>Taken further.
                 </h3>
             </div>
             <ul class="full-Card">
-                <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
+                <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
             </ul>
             <figure class="full-Card7"></figure>
+        </div>
+        
+        <!--task 8 -->
+        <div class="full-Card" style="background-color: rgb(250,248,247);">
+            <div class="full-Card-Content">
+                <h2 class="full-Card">What makes a Mac a Mac?</h2>
+            </div>
+
+            <figure class="full-Card8">
+                <div style="width:500px;height:auto;">
+                    <h2>macOS Mojave</h2>
+                    <h3>Simply powerful.</h3>
+                    <p>Featuring Dark Mode, pro-inspired features, four new apps, and a redesigned Mac App Store.</p>
+
+                </div>
+                <ul class="full-Card">
+                    <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a></li>
+                    <li><a href="#" class="detail-link"><span class="detail-link detail-link-title">Upgrade now</span> <span class="detail-link"> &#10217</span></a></li>
+                </ul>
+            </figure>
         </div>
 
         <div class="wrapper">
@@ -291,25 +303,7 @@
         <div class="wrapper" style="justify-content: center">
             <h2 class="cart-header">Get more out of Mac</h2>
         </div>
-        <!--task 8 -->
-        <div class="full-Card" style="background-color: rgb(250,248,247);">
-            <div class="full-Card-Content">
-                <h2 class="full-Card">What makes a Mac a Mac?</h2>
-            </div>
-
-            <figure class="full-Card8">
-                <div style="width:500px;height:auto;">
-                    <h2>macOS Mojave</h2>
-                    <h3>Simply powerful.</h3>
-                    <p>Featuring Dark Mode, pro-inspired features, four new apps, and a redesigned Mac App Store.</p>
-
-                </div>
-                <ul class="full-Card">
-                    <li><a class="full-Card" href="#"><span>Learn more ></span></a></li>
-                    <li><a class="full-Card" href="#"><span>Upgrade now ></span></a></li>
-                </ul>
-            </figure>
-        </div>
+        
 
         <div class="wrapper">
 
