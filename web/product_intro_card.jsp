@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 
-=======
-<%-- 
-    Document   : product_intro_card
-    Created on : Sep 17, 2019, 10:16:37 AM
-    Author     : SE130162
---%>
->>>>>>> mergeCode
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
@@ -102,6 +93,7 @@
         </div>
         
         
+<<<<<<< HEAD
     <%
         String name = "";
         String title = "";
@@ -386,5 +378,7 @@
             </figure>
         </div>
 
+=======
+>>>>>>> 447a2938b70a6981e5327289f44a09523bd853e0
     </body>
 </html>
