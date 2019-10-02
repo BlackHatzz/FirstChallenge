@@ -105,8 +105,8 @@ a:hover > span.detail-link-title {
 
 a:hover.white > span.detail-link-title {
     text-decoration: underline;
-    -moz-text-decoration-color: white; /* blue */
-    -o-text-decoration-color: white; /* blue */
-    -webkit-text-decoration-color: white; /* blue */
-    -webkit-text-decoration-color: white; /* blue */
+    -moz-text-decoration-color: white;
+    -o-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
 }
