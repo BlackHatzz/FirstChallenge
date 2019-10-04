@@ -5,180 +5,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>JSP Page</title>
 
         <link rel="stylesheet" type="text/css" href="css/ahaft-card.css"/>
         <link rel="stylesheet" type="text/css" href="css/global.css"/>
-        <style>
-            body {
-                font-size: 17px;
-                line-height: 1.47059;
-                font-weight: 400;
-                letter-spacing: -.022em;
-                font-family: sans-serif;
-                background-color: #fff;
-                color: #333;
-                font-style: normal;
-            }
-            div.full-Card{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
-                align-items: center;
-                max-width: 1380px;
-                background-color: rgba(242,242,242,0.7);
-                padding:55px 0px;
-                margin: 30px 0px 0px;
-
-            }
-            div.full-Card-Content{
-                max-width: 80%;
-                margin-left: auto;
-                margin-right: auto;
-                padding:-3px 55px;
-
-            }
-            h2.full-Card {
-                font-size: 32px;
-                line-height: 1.125;
-                font-weight: lighter;
-                letter-spacing: 0.0002em;
-                text-align: center;
-                font-family: sans-serif;
-            }
-            h3.full-Card {
-                font-size: 64px;
-                line-height: 1.0625;
-                font-weight: lighter;
-                letter-spacing: -.01em;
-                text-align: center;
-                font-family: sans-serif;
-                margin: 10px 0;
-            }
-            p.full-Card{
-                font-size: 21px;
-                line-height: 1.38105;
-                font-weight: 400;
-                letter-spacing: .011em;
-                text-align: center;
-                font-family: sans-serif;
-            }
-
-            ul.full-Card{
-                text-align: center;
-                text-transform: none;
-                list-style-type: none;
-                display: flex;
-                flex-direction: row;
-                background-repeat: no-repeat;
-            }
-            .full-Card-Content h2.full-Card {
-                margin-left: 100px;
-                margin-right: 100px;
-                font-family: sans-serif;
-            }
-            .full-Card-Content h3.full-Card {
-                font-family: sans-serif;
-                margin-left: 100px;
-                margin-right: 100px;
-
-            }
-            figure.full-Card2{
-                background-color: rgb(250,250,250);
-                background-image: url("images/mac/full-card/macbookAir_1.jpg");
-                width: 1232px;
-                height: 407px;
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            figure.full-Card3{
-
-                background-size: cover;
-                background-image: url("images/mac/full-card/macbook_pro.jpg");
-                width: 1256px;
-                height: 512px;
-                background-repeat: no-repeat;
-            }
-            figure.full-Card4{
-                width: 1380px;
-                height: 665px;
-                background-size: 1380px 665px;
-                background-repeat: no-repeat;
-                background-image: url("images/mac/full-card/macbook_for_college.jpg");
-                left: 0px;
-                position: relative;
-                z-index: 2;
-                margin: 0px;
-            }
-            figure.full-Card5{
-
-                background-size: cover;
-                background-image: url("images/mac/full-card/mac_pro_hero.jpg");
-                width: 960px;
-                height: 524px;
-                background-repeat: no-repeat;
-            }
-            figure.full-Card6{
-
-                background-size: cover;
-                background-image: url("images/mac/full-card/xdr_display_hero.jpg");
-                width: 980px;
-                height: 726px;
-                background-repeat: no-repeat;
-            }
-            figure.full-Card7{
-
-                background-size: cover;
-                background-image: url("images/mac/full-card/mac_os.jpg");
-                width: 1374px;
-                height: 493px;
-                background-repeat: no-repeat;
-            }
-
-            figure.full-Card8{
-                background-size: cover;
-                background-image: url("images/mac/full-card/mojave.jpg");
-                width: 1349px;
-                height: 654px;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                background-repeat: no-repeat;
-
-            }
-            figure.full-Card8 div h2{
-                padding-top: 217px;
-                color: #fff;
-                font-size: 24px;
-                line-height: 1.16667;
-                text-align: center;
-                font-family: sans-serif;
-            }
-            figure.full-Card8 div h3{
-                color: #fff;
-                font-size: 48px;
-                line-height: 1.08365;
-                text-align: center;
-                font-family: sans-serif;
-            }
-            figure.full-Card8 div p{
-                color: #fff;
-                font-size: 21px;
-                line-height: 1.08365;
-                text-align: center;
-                font-family: sans-serif;
-            }
-            .mediumCard{
-                font-size:24px;
-                text-align: center;
-
-            }
-            .smallCard{
-                font-size:21px;
-                text-align: center;
-            }
-        </style>
-    </head>
+        <link rel="stylesheet" type="text/css" href="css/full-card.css"/>
+    </head>    
     <body>
         <%--<%@include file="mac-gallery.jsp" %>--%>
         <link rel="stylesheet" type="text/css" href="mac-gallery"/>
@@ -206,7 +39,7 @@
             </div>
 
 
-            <figure class="full-Card2"></figure>
+            <figure class="full-Card2"style=" background-image: url('images/mac/full-card/macbookAir_1.jpg')"></figure>
         </div>
         <!--task 3 -->
         <div class="full-Card" style="background-color:#121217 ">
@@ -215,15 +48,15 @@
                 <h3 class="full-Card"style="color:white">More power.<br>More performance.<br>More pro.&nbsp;</h3>
             </div>
             <div style="display: flex;flex-direction: row;align-items: center;">
-                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="detail-link mediumCard" style="margin-right: 13.6px;"> &#10217</span></a>
-                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard">Buy</span> <span class="detail-link mediumCard"> &#10217</span></a>
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard"style="color:#6bf">Learn more</span> <span class="detail-link mediumCard" style="margin-right: 13.6px;color:#6bf"> &#10217</span></a>
+                <a href="#" class="detail-link "><span class="detail-link detail-link-title mediumCard"style="color:#6bf">Buy</span> <span class="detail-link mediumCard"style="color:#6bf"> &#10217</span></a>
             </div>
-            <figure class="full-Card3">
+            <figure class="full-Card3"style="background-image: url('images/mac/full-card/macbook_pro.jpg');">
             </figure>
         </div>
         <!--task 4 -->
         <div  style="display: flex;flex-direction: row; align-items: left;margin: 0px;">
-            <figure class="full-Card4"></figure>
+            <figure class="full-Card4"style="background-image: url('images/mac/full-card/macbook_for_college.jpg');"></figure>
             <div class="full-Card" style="width: 650px;margin:0px;padding:0px; position: relative;z-index: 1">
                 <div class="full-Card-Content">
                     <p style="text-align: center;color: #ef5602;font-size: 24px;font-family: sans-serif; ">Offer Ends 9/26</p>
@@ -243,7 +76,7 @@
 
             <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="detail-link mediumCard"> &#10217</span></a>
 
-            <figure class="full-Card5"></figure>
+            <figure class="full-Card5"style="background-image: url('images/mac/full-card/mac_pro_hero.jpg');"></figure>
         </div>
         <!--task 6 -->
         <div class="full-Card" style="background-color: rgb(250,248,247);">
@@ -254,7 +87,7 @@
 
             <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class=" mediumCard detail-link"> &#10217</span></a>
 
-            <figure class="full-Card6"></figure>
+            <figure class="full-Card6"style="background-image: url('images/mac/full-card/xdr_display_hero.jpg');"></figure>
         </div>
         <!--task 7 -->
         <div class="full-Card" style="background-color: rgb(250,248,247);">
@@ -266,7 +99,7 @@
 
             <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="mediumCard detail-link"> &#10217</span></a>
 
-            <figure class="full-Card7"></figure>
+            <figure class="full-Card7"style="background-image: url('images/mac/full-card/mac_os.jpg')"></figure>
         </div>
 
         <!--task 8 -->
@@ -275,7 +108,7 @@
                 <h2 class="full-Card">What makes a Mac a Mac?</h2>
             </div>
 
-            <figure class="full-Card8">
+            <figure class="full-Card8"style="background-image: url('images/mac/full-card/mojave.jpg');">
                 <div style="width:500px;height:auto;">
                     <h2>macOS Mojave</h2>
                     <h3>Simply powerful.</h3>
@@ -283,8 +116,8 @@
 
                 </div>
                 <div style="display: flex;flex-direction: row;align-items: center;">
-                    <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCardCard">Learn more</span> <span class="detail-link smallCard" style="margin-right: 13.6px;"> &#10217</span></a>
-                    <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCardCard">Upgrade now</span> <span class="detail-link smallCard"> &#10217</span></a>
+                    <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCardCard"style="color:#6bf">Learn more</span> <span class="detail-link smallCard" style="margin-right: 13.6px;color:#6bf"> &#10217</span></a>
+                    <a href="#" class="detail-link "><span class="detail-link detail-link-title smallCardCard"style="color:#6bf">Upgrade now</span> <span class="detail-link smallCard"style="color:#6bf"> &#10217</span></a>
                 </div>
             </figure>
         </div>
@@ -352,7 +185,7 @@
                 <p class="ahaft-card-description" style="color: white">
                     Games that redefine games.<br/>Coming to the App Store this fall.
                 </p>
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title"style="color:#6bf">Learn more</span> <span style="color:#6bf" class="detail-link"> &#10217</span></a>
 
             </div>
 
@@ -363,7 +196,7 @@
                 <p class="ahaft-card-description" style="color: white">
                     Games that redefine games.<br/>Coming to the App Store this fall.
                 </p>
-                <a href="#" class="detail-link"><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
+                <a href="#" class="detail-link"><span class="detail-link detail-link-title"style="color:#6bf">Learn more</span> <span class="detail-link"style="color:#6bf"> &#10217</span></a>
             </div>
 
         </div>
@@ -567,5 +400,22 @@
 
             </div>
         </div>
+        <!--task 9 full card-->
+        <div class="full-Card" style="background-color: rgb(250,248,247); ">
 
+
+            <figure class="full-Card8"style="justify-content: center;background-image: url('images/mac/full-card/business__e3o2qi6ojlaq_large.jpg')">
+                <div style="width:700px;height:auto;">
+                    <h3  >Mac for Business</h3>
+
+                    <p >Get the power to take your business to the<br> next level.</p>
+                     <ul class="full-Card"style = "flex-direction: column;padding: 0">
+                        <li><a href="#" class="detail-link"><span class="detail-link detail-link-title smallCard"style="color:#6bf">Learn about Mac in business</span> <span class="smallCard detail-link"> &#10217</span></a></li> 
+                        <li><a href="#" class="detail-link"><span class="detail-link detail-link-title smallCard"style="color:#6bf">Shop for your business</span> <span class="smallCard detail-link"> &#10217</span></a></li>
+                    </ul>
+                </div>
+                
+            </figure>
+        </div>
+    </body>
 </html>

@@ -16,7 +16,9 @@
     <body>
         
         <%@include file="navbar.jsp" %>
+        <%@include file="navbar-product.jsp" %>
         <%@include file="product_intro_card.jsp" %>
+        <%@include file="footer.jsp" %>
         
     </body>
 </html>
