@@ -1,5 +1,6 @@
 
 
+<%@page import="java.util.HashMap"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -9,6 +10,8 @@
 
         <link rel="stylesheet" type="text/css" href="css/ahaft-card.css"/>
         <link rel="stylesheet" type="text/css" href="css/global.css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <style>
             body {
                 font-size: 17px;
@@ -181,7 +184,7 @@
     </head>
     <body>
         <%--<%@include file="mac-gallery.jsp" %>--%>
-        <link rel="stylesheet" type="text/css" href="mac-gallery"/>
+
         <!--task 1 -->
         <div class="full-Card" >
             <div class="full-Card-Content">
@@ -368,204 +371,6 @@
 
         </div>
 
-        <style>
-            div.feature-wrapper {
-                width: 100%;
-                margin-top: 25px;
-                height: 500px;
-            }
-
-            div.feature-wrapper div.feature-container {
-                height: 500px;
-                width: 96%;
-                margin-left: 2%;
-                background-color: #FAFAFA;/* #E6E6E6; */
-            }
-
-            div.feature-container div.feature-caption {
-                max-width: 707px;
-                margin-left: auto;
-                margin-right: auto;
-                background-color: yellow;
-
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
-
-            div.feature-container h2.feature-title {
-                font-size: 48px;
-                font-weight: 600;
-                font-family: sans-serif;
-                text-align: center;
-                padding-top: 75px;
-                margin-bottom: 15px;
-                /*background-color: red;*/
-            }
-
-            div.feature-container ul.feature-tabnav-item-list {
-                margin: 0px;
-                display: flex;
-                justify-content: center;
-                flex-direction: row;
-                height: 100px;
-                list-style-type: none;
-
-
-            }
-
-            ul.feature-tabnav-item-list li.feature-tabnav-item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                padding-left: 60px;
-
-                border-bottom: 1px solid #d6d6d6; /* gray */
-            }
-            a.tabnav-link {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-
-                text-align: center;
-                font-size: 17px;
-                font-family: sans-serif;
-                font-weight: lighter;
-                color: #666;
-            }
-            a:hover.tabnav-link {
-                color: #0070c9;
-                cursor: pointer;
-            }
-
-            figure.tabnav-icon {
-                background-size: 48px 77px;
-                width: 48px;
-                height: 77px;
-                margin: 0px;
-            }
-
-            div.gallery-container {
-                width: 100%; height: 489px;
-                background-color: yellow;
-                background-size: 606px 489px;
-                background-repeat: no-repeat;
-                background-position: center;
-
-
-                display: flex;
-                /*justify-content: center;*/
-                flex-direction: column;
-                align-items: center;
-            }
-
-            figure.gallery-image {
-                position: relative;
-                width: 556px; height: 313px;
-                background-size: 556px 313px;
-                background-repeat: no-repeat;
-                top: 24px;
-                background-color: blue;
-                margin: 0px;
-            }
-        </style>
-        <div class="feature-wrapper" style="height: 1000px;">
-            <div class="feature-container" style="height: 1000px">
-                <div class="feature-caption">
-                    <h2 class="feature-title">
-                        Build-in Apps
-                    </h2>
-                    <p style="text-align: center; padding-bottom: 15px;">
-                        Powerful creativity and productivity tools live inside every Mac — apps that help you explore, connect, and work more efficiently.
-                    </p>
-                </div>
-
-                <ul class="feature-tabnav-item-list">
-                    <!--item 1-->
-                    <li class="feature-tabnav-item" style="padding: 0px;">
-                        <a href="#" class="tabnav-link">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/photos.jpg')"></figure>
-                            Photos
-                        </a>
-                    </li>
-
-                    <!--item 2-->
-                    <!--                    <li class="feature-tabnav-item" style="">
-                                            <a class="tabnav-link" href="#">
-                                                <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/imovie.jpg')"></figure>
-                                                iMovie
-                                            </a>
-                                        </li>-->
-                    <li class="feature-tabnav-item">
-                        <a class="tabnav-link" href="#gallery-slide-imovie" data-ac-gallery-trigger="gallery-slide-imovie" class="tabnav-link current" id="gallery-slide-imovie-trigger" role="tab" tabindex="0" aria-controls="gallery-slide-imovie" aria-selected="true">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/imovie.jpg')" class="icon slide-imovie-icon" data-progressive-image=""></figure>
-                            iMovie
-                        </a>
-                    </li>
-
-
-                    <!--item 3-->
-                    <li class="feature-tabnav-item" style="">
-                        <a class="tabnav-link" href="#">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/garageband.jpg')"></figure>
-                            GarageBand
-                        </a>
-                    </li>
-
-                    <!--item 4-->
-                    <li class="feature-tabnav-item" style="">
-                        <a class="tabnav-link" href="#">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/pages.jpg')"></figure>
-                            Pages
-                        </a>
-                    </li>
-
-                    <!--item 5-->
-                    <li class="feature-tabnav-item" style="">
-                        <a class="tabnav-link" href="#">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/numbers.jpg')"></figure>
-                            Numbers
-                        </a>
-                    </li>
-
-                    <!--item 6-->
-                    <li class="feature-tabnav-item" style="">
-                        <a class="tabnav-link" href="#">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/keynote.jpg')"></figure>
-                            Keynote
-                        </a>
-                    </li>
-
-                    <!--item 7-->
-                    <li class="feature-tabnav-item" style="">
-                        <a class="tabnav-link" href="#">
-                            <figure class="tabnav-icon" style="background-image: url('images/mac/tabnav-icons/safari.jpg')"></figure>
-                            Safari
-                        </a>
-                    </li>
-                </ul>
-
-                <!--description, link--> 
-                <div class="feature-caption" style="padding-bottom: 42px">
-                    <p style="text-align: center; padding-bottom: 15px;">
-                        Keep your growing library organized and accessible. Perfect your images and create beautiful gifts for sharing. And with iCloud Photos, you can store a lifetime’s worth of photos and videos in the cloud.
-                    </p>
-
-                    <a href="#" style=""><span class="detail-link detail-link-title">Learn more</span> <span class="detail-link"> &#10217</span></a>
-                </div>
-
-                <!--images-->
-                <div class="gallery-container" style="background-image: url('images/mac/gallery/imac-screen.png')">
-                    <figure class="gallery-image" style="background-image: url('images/mac/gallery/bia-photos.jpg')">
-
-                    </figure>
-
-
-                </div>
-
-
-            </div>
-        </div>
-
+        <%@include file="feature-wrapper.jsp" %>
+</body>
 </html>
