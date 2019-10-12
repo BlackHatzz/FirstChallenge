@@ -275,7 +275,7 @@
 
             <a href="#" class="detail-link"><span class="detail-link detail-link-title mediumCard">Learn more</span> <span class="mediumCard detail-link"> &#10217</span></a>
 
-            <figure class="full-Card7"style="background-image: url('images/mac/full-card/mac_os.jpg')"></figure>
+            <figure class="full-Card7"style="background-image: url('images/mac/full-card/mac_os.jpg');margin:17px 0px 17px 0px "></figure>
         </div>
 
         <!--task 8 -->
@@ -284,7 +284,7 @@
                 <h2 class="full-Card">What makes a Mac a Mac?</h2>
             </div>
 
-            <figure class="full-Card8"style="background-image: url('images/mac/full-card/mojave.jpg');">
+            <figure class="full-Card8"style="background-image: url('images/mac/full-card/mojave.jpg');;margin:17px 0px 17px 0px ">
                 <div style="width:500px;height:auto;">
                     <h2>macOS Mojave</h2>
                     <h3>Simply powerful.</h3>
@@ -578,10 +578,10 @@
             </div>
         </div>
         <!--task 9 full card-->
-        <div class="full-Card" style="background-color: rgb(250,248,247); ">
+        <div class="full-Card" style="background-color: rgb(250,248,247);" >
 
 
-            <figure class="full-Card8"style="justify-content: center;background-image: url('images/mac/full-card/business__e3o2qi6ojlaq_large.jpg')">
+            <figure class="full-Card8"style="margin:17px 0px 17px 0px ;justify-content: center;background-image: url('images/mac/full-card/business__e3o2qi6ojlaq_large.jpg')">
                 <div style="width:700px;height:auto;">
                     <h3  >Mac for Business</h3>
 
