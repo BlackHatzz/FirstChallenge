@@ -2,6 +2,22 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/global.css</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/navbar.css</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/navbar.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/feature-wrapper.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/index.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/ahaft-card.css</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/FeatureItemDTO.java</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/FeatureWrapperDTO.java</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/js/collapse-animation.js</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/product_intro_card.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/WEB-INF/web.xml</file>
+        </group>
+>>>>>>> ef0e715e3d106d6e96167e90fbcf663bf82c8e49
     </open-files>
 </project-private>

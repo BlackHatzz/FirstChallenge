@@ -1,5 +1,6 @@
 
 
+<%@page import="java.util.HashMap"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,11 +11,186 @@
 
         <link rel="stylesheet" type="text/css" href="css/ahaft-card.css"/>
         <link rel="stylesheet" type="text/css" href="css/global.css"/>
+<<<<<<< HEAD
         <link rel="stylesheet" type="text/css" href="css/full-card.css"/>
     </head>    
+=======
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+            body {
+                font-size: 17px;
+                line-height: 1.47059;
+                font-weight: 400;
+                letter-spacing: -.022em;
+                font-family: sans-serif;
+                background-color: #fff;
+                color: #333;
+                font-style: normal;
+            }
+            div.full-Card{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                max-width: 1380px;
+                background-color: rgba(242,242,242,0.7);
+                padding:55px 0px;
+                margin: 30px 0px 0px;
+
+            }
+            div.full-Card-Content{
+                max-width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                padding:-3px 55px;
+
+            }
+            h2.full-Card {
+                font-size: 32px;
+                line-height: 1.125;
+                font-weight: lighter;
+                letter-spacing: 0.0002em;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            h3.full-Card {
+                font-size: 64px;
+                line-height: 1.0625;
+                font-weight: lighter;
+                letter-spacing: -.01em;
+                text-align: center;
+                font-family: sans-serif;
+                margin: 10px 0;
+            }
+            p.full-Card{
+                font-size: 21px;
+                line-height: 1.38105;
+                font-weight: 400;
+                letter-spacing: .011em;
+                text-align: center;
+                font-family: sans-serif;
+            }
+
+            ul.full-Card{
+                text-align: center;
+                text-transform: none;
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                background-repeat: no-repeat;
+            }
+            .full-Card-Content h2.full-Card {
+                margin-left: 100px;
+                margin-right: 100px;
+                font-family: sans-serif;
+            }
+            .full-Card-Content h3.full-Card {
+                font-family: sans-serif;
+                margin-left: 100px;
+                margin-right: 100px;
+
+            }
+            figure.full-Card2{
+                background-color: rgb(250,250,250);
+                background-image: url("images/mac/full-card/macbookAir_1.jpg");
+                width: 1232px;
+                height: 407px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            figure.full-Card3{
+
+                background-size: cover;
+                background-image: url("images/mac/full-card/macbook_pro.jpg");
+                width: 1256px;
+                height: 512px;
+                background-repeat: no-repeat;
+            }
+            figure.full-Card4{
+                width: 1380px;
+                height: 665px;
+                background-size: 1380px 665px;
+                background-repeat: no-repeat;
+                background-image: url("images/mac/full-card/macbook_for_college.jpg");
+                left: 0px;
+                position: relative;
+                z-index: 2;
+                margin: 0px;
+            }
+            figure.full-Card5{
+
+                background-size: cover;
+                background-image: url("images/mac/full-card/mac_pro_hero.jpg");
+                width: 960px;
+                height: 524px;
+                background-repeat: no-repeat;
+            }
+            figure.full-Card6{
+
+                background-size: cover;
+                background-image: url("images/mac/full-card/xdr_display_hero.jpg");
+                width: 980px;
+                height: 726px;
+                background-repeat: no-repeat;
+            }
+            figure.full-Card7{
+
+                background-size: cover;
+                background-image: url("images/mac/full-card/mac_os.jpg");
+                width: 1374px;
+                height: 493px;
+                background-repeat: no-repeat;
+            }
+
+            figure.full-Card8{
+                background-size: cover;
+                background-image: url("images/mac/full-card/mojave.jpg");
+                width: 1349px;
+                height: 654px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-repeat: no-repeat;
+
+            }
+            figure.full-Card8 div h2{
+                padding-top: 217px;
+                color: #fff;
+                font-size: 24px;
+                line-height: 1.16667;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            figure.full-Card8 div h3{
+                color: #fff;
+                font-size: 48px;
+                line-height: 1.08365;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            figure.full-Card8 div p{
+                color: #fff;
+                font-size: 21px;
+                line-height: 1.08365;
+                text-align: center;
+                font-family: sans-serif;
+            }
+            .mediumCard{
+                font-size:24px;
+                text-align: center;
+
+            }
+            .smallCard{
+                font-size:21px;
+                text-align: center;
+            }
+        </style>
+    </head>
+>>>>>>> ef0e715e3d106d6e96167e90fbcf663bf82c8e49
     <body>
         <%--<%@include file="mac-gallery.jsp" %>--%>
-        <link rel="stylesheet" type="text/css" href="mac-gallery"/>
+
         <!--task 1 -->
         <div class="full-Card" >
             <div class="full-Card-Content">
@@ -201,6 +377,7 @@
 
         </div>
 
+<<<<<<< HEAD
         <style>
             div.feature-wrapper {
                 width: 100%;
@@ -418,4 +595,8 @@
             </figure>
         </div>
     </body>
+=======
+        <%@include file="feature-wrapper.jsp" %>
+</body>
+>>>>>>> ef0e715e3d106d6e96167e90fbcf663bf82c8e49
 </html>
