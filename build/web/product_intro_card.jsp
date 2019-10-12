@@ -57,7 +57,7 @@
             </figure>
         </div>
         <!--task 4 -->
-        <div  style="display: flex;flex-direction: row; align-items: left;margin: 0px;">
+        <div  style="display: flex;flex-direction: row; align-items: flex-start; margin: 0px;">
             <figure class="full-Card4"style="background-image: url('images/mac/full-card/macbook_for_college.jpg');"></figure>
             <div class="full-Card" style="width: 650px;margin:0px;padding:0px; position: relative;z-index: 1">
                 <div class="full-Card-Content">

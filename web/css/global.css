@@ -36,3 +36,8 @@ body {
     font-family: sans-serif;
 }
 button:focus {outline:0;}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

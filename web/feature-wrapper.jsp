@@ -126,7 +126,8 @@
         color: #666;
 
         height: 100%;
-
+        
+        cursor: pointer;
     }
     p.tabnav-item-title {
         text-align: center;
