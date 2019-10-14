@@ -10,11 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
-        <link rel="stylesheet" type="text/css" href="../css/global.css">
-        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/global.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <style>
-
             .navbar-mac{
                 width: 100%;
                 height:auto;
@@ -28,14 +27,17 @@
             }
             .navbar-mac-content{
                 width: 74%;
-                position:absolute;
+                height: 52px;
+                margin: 0px;
+                position: absolute;
                 z-index: 2;
-                padding: 14px 0px 14px 22px;
+                padding: 0px;
                 border-bottom: 1px solid #86868b;
                 transition-duration: 0s;
-            }
-            .ac-in-title{
-                float:left
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
             }
             .ac-in-title a{
                 color: #1d1d1f;
@@ -43,15 +45,13 @@
 
 
             }
-            .ac-in-menu-link{
-
-                float:right;
-
+            :not(html) {
+                -webkit-transform: translate3d(0, 0, 0); 
+                transform: translate3d(0, 0, 0) 
             }
             .ac-in-menu-link a{
                 color: #1d1d1f;
                 font-size:12px;
-                float:left;
                 padding: 4px 11px;
             }
             .ac-in-menu-button {
@@ -71,9 +71,9 @@
         </style>
     </head>
     <body>
-        <%@include file="../navbar.jsp" %>
+        <%@include file="global-navbar.jsp" %>
 
-        <div class="navbar-mac change-by-scroll">
+        <div id="local-navbar-container" class="navbar-mac change-by-scroll">
             <div class="navbar-mac-content">
                 <div class="ac-in-title"><a href="#">Macbook Air</a></div>
 
@@ -91,27 +91,23 @@
 
         </div>
         <script>
-            changeValue();
             changebyScroll();
             function  changebyScroll() {
-                var height1 = document.documentElement.scrollTop;
+                var height1 = parseInt($(window).scrollTop());
+                ;
                 if (height1 >= 44) {
-                    $('.navbar-mac').css('top', '0px');
-                    $('.navbar-mac').css('position', 'fixed');
+                    $('#local-navbar-container').css('top', height1 + 'px');
+                    $('#local-navbar-container').css('position', 'fixed');
+                    console.log('fixed');
                 } else {
-                    $('.navbar-mac').css('top', '44px');
-                    $('.navbar-mac').css('position', 'absolute');
+                    $('#local-navbar-container').css('top', '44px');
+                    $('#local-navbar-container').css('position', 'static');
                 }
-
             }
 
             $(window).on('scroll', function () {
                 changebyScroll();
             });
-            function changeValue() {
-                $('.navbar-wrapper').css('position', 'absolute');
-
-            }
         </script>
     </body>
 </html>
