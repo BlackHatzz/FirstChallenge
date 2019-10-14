@@ -13,100 +13,159 @@
         <link rel="stylesheet" type="text/css" href="css/global.css">
         <link rel="stylesheet" type="text/css" href="css/navbar.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
         <style>
-            .navbar-mac{
+            div.navbar-wrapper {
                 width: 100%;
-                height:auto;
-                margin: 0 12%;
-                opacity: 2;
-                
-                transition-property: background-color;
-                transition-duration: 0.5s;
-                transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1);
-                transition-delay: 0s;
-            }
-            .navbar-mac-content{
-                width: 74%;
                 height: 52px;
-                margin: 0px;
-                position: absolute;
-                z-index: 2;
-                padding: 0px;
-                border-bottom: 1px solid #86868b;
-                transition-duration: 0s;
+                /*background-color: green;*/
                 display: flex;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
-
+                z-index: 10;
+                /*border-bottom: 5px red solid;*/
             }
-            .ac-in-title a{
-                color: #1d1d1f;
+            div.navbar-wrapper div.navbar-theme {
+                z-index: -10;
+                position: absolute;
+                width: inherit;
+                height: inherit;
+                
+                background-color: rgba(255, 255, 255, 0.7);
+                -webkit-backdrop-filter: saturate(180%) blur(20px);
+                -moz-backdrop-filter: saturate(180%) blur(20px);
+                -ms-backdrop-filter: saturate(180%) blur(20px);
+                -o-backdrop-filter: saturate(180%) blur(20px);
+                backdrop-filter: saturate(180%) blur(20px);
+            }
+            div.navbar-container {
+                padding: 0px;
+                margin: 0px;
+                /*margin: 0px auto 0px auto;*/
+                width: 1024px;
+                height: 51px;
+                /*background-color: yellow;*/
+                border-bottom: 1px #CECECE solid;
+
+                display: flex;
+                flex-direction: row;
+            }
+
+            div.navbar-container div.navbar-left-content {
+                width: 50%;
+                height: 100%;
+                /*background-color: gray;*/
+                display: flex;
+                align-items: center;
+            }
+
+            div.navbar-left-content .title-link {
+                color: rgb(29, 29, 31);
                 font-size: 21px;
+                font-weight: 500;
+                font-family: sans-serif;
+                /*                margin-top: 40px;
+                                padding-top: 40px;*/
+                /*margin-bottom: auto;*/
+            }
 
+            div.navbar-container div.navbar-right-content {
+                width: 50%;
+                height: 100%;
+                /*                background: greenyellow;*/
 
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
             }
-            :not(html) {
-                -webkit-transform: translate3d(0, 0, 0); 
-                transform: translate3d(0, 0, 0) 
-            }
-            .ac-in-menu-link a{
-                color: #1d1d1f;
-                font-size:12px;
-                padding: 4px 11px;
-            }
-            .ac-in-menu-button {
-                float: right;  
-            }
-            .ac-in-menu-button a{
+
+            div.navbar-right-content span.overview {
+                color: rgba(29, 29, 31, 0.6);
+                font-family: sans-serif;
                 font-size: 12px;
-                color: white;
-                background-color: #0071e3;
-                border-radius: 45%;
-                padding: 4px 11px;
-                opacity: 1;
+                margin: 0px 10px 0px 10px;
             }
-            .ac-in-menu-button a:hover{
-                opacity: 0.8;
+            div.navbar-right-content a.access-link {
+                color: #1d1d1f;
+                font-family: sans-serif;
+                font-size: 12px;
+                margin: 0px 10px 0px 10px;
+            }
+            div.navbar-right-content a.access-link:hover {
+                color: #0070c9;
+                cursor: pointer;
+            }
+            div.navbar-right-content a.access-button {
+                background-color: #147ce5;
+                text-align: center;
+                padding: 4px 11px 4px 11px;
+                border-radius: 12px;
+                color: white;
+            }
+            div.navbar-right-content a.access-button:hover {
+                background-color: #0070c9;
+                color: white;
+            }
+
+            .fixed-navbar {
+                position: fixed;
+                top: 0;
             }
         </style>
-    </head>
+
     <body>
         <%@include file="global-navbar.jsp" %>
-
-        <div id="local-navbar-container" class="navbar-mac change-by-scroll">
-            <div class="navbar-mac-content">
-                <div class="ac-in-title"><a href="#">Macbook Air</a></div>
-
-                <div class="ac-in-menu-link">
-                    <a href="#" style="color:rgba(29,29,31,0.6)">Overview</a>
-                    <a href="#">macOS</a>
-                    <a href="#">Tech Specs</a>
-                    <div class="ac-in-menu-button"><a href="#">Buy</a></div>
-
+        <div id="local-navbar" class="navbar-wrapper">
+            <!--navbar theme-->
+            <div id="navbar-theme" class="navbar-theme"></div>
+            
+            <div id="navbar-content" class="navbar-container">
+                <!--left content of navbar--> 
+                <div class="navbar-left-content">
+                    <a href="#" class="title-link">MacBook Air</a>
                 </div>
 
+                <!--right content of navbar-->
+                <div class="navbar-right-content">
+                    <span class="overview">Overview</span>
+                    <a class="access-link">macOS</a>
+                    <a class="access-link">Tech Specs</a>
+                    <a class="access-link access-button">Buy</a>
+                </div>
             </div>
         </div>
-        <div style="width:100%;height: 8000px; color:gold" >
-
-        </div>
+        
         <script>
-            changebyScroll();
-            function  changebyScroll() {            
-                var height1 = parseInt($(window).scrollTop());
-                if (height1 >= 44) {
-                    $('#local-navbar-container').css('top', height1+'px');
-                     $('#local-navbar-container').css('position', 'fixed');
+
+            window.onscroll = function () {
+                setFixedNavbar();
+            };
+            var navbarWrapper = document.getElementById("local-navbar");
+            var navbarContainer = document.getElementById("navbar-content");
+//            var navbarTheme = document.getElementById("navbar-theme");
+            var navbarTopY = navbarWrapper.offsetTop;
+
+            function setFixedNavbar() {
                 
+                if (window.pageYOffset > navbarTopY) {
+                    // make fixed navbar
+                    navbarWrapper.classList.add("fixed-navbar");
+                    
+                     // set border bottom
+                    navbarContainer.style.borderBottom = "0px";
+                    navbarWrapper.style.borderBottom = "1px #E4E4E4 solid";
+                    
                 } else {
-                    $('#local-navbar-container').css('top', '44px');
-                    $('#local-navbar-container').css('position', 'static');
+                    // remove fixed navbar
+                    navbarWrapper.classList.remove("fixed-navbar");
+                    
+                    // set border bottom
+                    navbarWrapper.style.borderBottom = "0px";
+                    navbarContainer.style.borderBottom = "1px #CECECE solid";
                 }
             }
-
-            $(window).on('scroll', function () {
-                changebyScroll();
-            });
         </script>
     </body>
+</body>
 </html>
