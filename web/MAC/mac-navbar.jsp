@@ -95,6 +95,7 @@
             changebyScroll();
             function  changebyScroll() {
                 var height1 = document.documentElement.scrollTop;
+                console.log(height1);
                 if (height1 >= 44) {
                     $('.navbar-mac').css('top', '0px');
                     $('.navbar-mac').css('position', 'fixed');
