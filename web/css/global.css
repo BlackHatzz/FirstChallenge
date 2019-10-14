@@ -36,11 +36,7 @@ body {
     font-family: sans-serif;
 }
 button:focus {
-<<<<<<< HEAD
-    outline: 0px !important;
-=======
     outline: 0px;
->>>>>>> 7aedeff813df25e6b6e16354af759340f0a7c900
     box-shadow: none !important;
 }
 

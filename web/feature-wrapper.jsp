@@ -35,11 +35,15 @@
 <%
     // check featureWrapperDTO is null or not
     if (featureWrapperDTO != null) {
-        if(!featureWrapperDTO.getItemsList().isEmpty()) {
+        if (!featureWrapperDTO.getItemsList().isEmpty()) {
 %>
 
 <!--set css style-->
 <style>
+    button:focus {
+        outline: 0px !important;
+        box-shadow: none !important;
+    }
     button.collapse-button {
         margin: 0px;
         padding: 0px;
@@ -126,13 +130,10 @@
         color: #666;
 
         height: 100%;
-        
+
         cursor: pointer;
     }
-    button:focus {
-    outline: 0px !important;
-    box-shadow: none !important;
-}
+
     p.tabnav-item-title {
         text-align: center;
         font-size: 17px;
@@ -233,7 +234,7 @@
         <div class="gallery-container" style="background-image: url('images/mac/gallery/imac-screen.png')">
             <figure id="<%= featureWrapperDTO.getId()%>-content-image" class="gallery-image" 
                     style="background-image: url('<% String firstImageUrl = featureWrapperDTO.getItemsList().get(0).getImageUrl();
-                        if (firstImageUrl != null) {%><%= firstImageUrl%><% } %>')">
+                        if (firstImageUrl != null) {%><%= firstImageUrl%><% }%>')">
             </figure>
         </div>
 
@@ -256,7 +257,7 @@
     }
 
 
-    var activeElement = '#<%= featureWrapperDTO.getItemsList().get(0).getId() %>';
+    var activeElement = '#<%= featureWrapperDTO.getItemsList().get(0).getId()%>';
     $(activeElement).css('border-bottom', '1px solid rgba(51, 51, 51, 0.7)');
 
 
