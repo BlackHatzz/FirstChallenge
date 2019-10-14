@@ -19,8 +19,7 @@
                 height:auto;
                 margin: 0 12%;
                 opacity: 2;
-                top:44px;
-                position: fixed;
+                
                 transition-property: background-color;
                 transition-duration: 0.5s;
                 transition-timing-function: cubic-bezier(0.28, 0.11, 0.32, 1);
@@ -96,12 +95,12 @@
             function  changebyScroll() {            
                 var height1 = parseInt($(window).scrollTop());
                 if (height1 >= 44) {
-                    $('#local-navbar-container').css('top', '0px');
-                     $('#local-navbar-container').css('position', 'sticky');
+                    $('#local-navbar-container').css('top', height1+'px');
+                     $('#local-navbar-container').css('position', 'fixed');
                 
                 } else {
                     $('#local-navbar-container').css('top', '44px');
-                    $('#local-navbar-container').css('position', 'absolute');
+                    $('#local-navbar-container').css('position', 'static');
                 }
             }
 
