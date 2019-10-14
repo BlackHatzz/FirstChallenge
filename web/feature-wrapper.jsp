@@ -129,6 +129,10 @@
         
         cursor: pointer;
     }
+    button:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
     p.tabnav-item-title {
         text-align: center;
         font-size: 17px;

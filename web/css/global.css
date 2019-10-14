@@ -35,7 +35,10 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-button:focus {outline:0;}
+button:focus {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
 
 html, body {
     max-width: 100%;
