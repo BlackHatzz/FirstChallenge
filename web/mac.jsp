@@ -204,7 +204,7 @@
         </div>
 
 
-        <%@include file="feature-wrapper.jsp" %>
+        <%@include file="mac-feature-wrapper.jsp" %>
         <!--task 9 full card-->
         <div class="full-Card" style="background-color: rgb(250,248,247);" >
 
