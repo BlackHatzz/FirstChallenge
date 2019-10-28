@@ -44,3 +44,45 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.flex-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex-coloumn {
+    flex-direction: column;
+}
+.flex-row {
+    flex-direction: row;
+}
+
+a span.detail-link {
+    color: #3972B8; /* blue */
+    align-self: center;
+    text-align: center;
+
+    display:inline-block;
+    padding-bottom: 1px;
+    text-decoration: none;
+}
+.ahaft-card-box a {
+    text-decoration: none;
+}
+
+a:hover > span.detail-link-title {
+    text-decoration: underline;
+    -moz-text-decoration-color: #3972B8; /* blue */
+    -o-text-decoration-color: #3972B8; /* blue */
+    -webkit-text-decoration-color: #3972B8; /* blue */
+    -webkit-text-decoration-color: #3972B8; /* blue */
+}
+
+a:hover.white > span.detail-link-title {
+    text-decoration: underline;
+    -moz-text-decoration-color: white;
+    -o-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+    -webkit-text-decoration-color: white;
+}

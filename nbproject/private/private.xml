@@ -3,20 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/navbar.jsp</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/navbar-product.jsp</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/FeatureItemDTO.java</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-retina.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-speaker.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-feature-intro-card-content.jsp</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/FeatureWrapperDTO.java</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/js/collapse-animation.js</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/footer.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-materials.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-feature-wrapper.jsp</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/WEB-INF/web.xml</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/global.css</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/navbar.css</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/feature-wrapper.jsp</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/index.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/connections/DBConnection.java</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/ahaft-card.css</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/full-card.css</file>
-            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/product_intro_card.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/mac-macbook-air.css</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-local-navbar.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/product-navbar.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-keyboard.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-thunderbolt.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/FeatureItemDTO.java</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/global-navbar.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/global.css</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/css/navbar.css</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/index.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/MacbookAirFeatureIntroCardDTO.java</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-macos.jsp</file>
+            <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-touchid.jsp</file>
         </group>
     </open-files>
 </project-private>
