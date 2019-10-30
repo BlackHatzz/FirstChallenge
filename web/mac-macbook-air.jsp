@@ -29,5 +29,13 @@
         <%@include file="mac-macbook-air-card-materials.jsp" %>
         <%@include file="mac-macbook-air-card-macos.jsp" %>
         
+        <div style="width: 100%; height: auto; background-color: green;">
+            <figure style="width: auto; height: auto; will-change: transform; transform: rotate(12deg)">
+                <div style="width: 1203px; height: 1061px; background-size: cover; background-image: url('images/mac/macbook-air/light-top.jpg')"></div>
+                <div style="width: 1203px; height: 1061px; background-size: cover; background-image: url('images/mac/macbook-air/light-bottom.jpg')"></div>
+            </figure>
+        </div>
+        
+        
     </body>
 </html>

@@ -47,7 +47,7 @@
                 height: 0px;
                 margin: 0px;
                 /*position: relative;*/
-                transform: translateY(-50px);
+                transform: translateY(-60px);
                 position: absolute;
                 right: 84px;
                 bottom: 10px;
@@ -65,6 +65,9 @@
                 bottom: 70px;
                 z-index: 2;
                 transform: translate(0px, -60px) rotate(-2deg);
+                will-change: transform;
+                transition-duration: 0.2s;
+                transition-timing-function: ease;
             }
             
         </style>
@@ -143,20 +146,17 @@
             };
 
             var wrapper = document.getElementById("touchid-header-container");
-            var startFlag = parseFloat(wrapper.offsetTop - 80);
-            var endFlag = parseFloat(wrapper.offsetTop + wrapper.offsetHeight - 20);
+            var startFlag = parseFloat(wrapper.offsetTop - 100);
+            var endFlag = parseFloat(wrapper.offsetTop + wrapper.offsetHeight - 10);
 
             var handImage = document.getElementById("image-hand");
 
             function rotateHandImage() {
                 var windowY = parseFloat(window.pageYOffset);
 
-
-
-
                 if (windowY >= startFlag && windowY <= endFlag) {
                     var ratioY = (windowY - startFlag) / (endFlag - startFlag);
-                    var translateY = parseFloat(50.0 * ratioY) - 50.0;
+                    var translateY = parseFloat(60.0 * ratioY) - 40.0;
                     var rotate = parseFloat(3.0 * ratioY) - 2.0;
 
                     handImage.style.transform = "translateY(" + translateY + "px) rotate(" + rotate + "deg)";
