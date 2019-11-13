@@ -57,6 +57,7 @@
                 /*background-color: gray;*/
                 display: flex;
                 align-items: center;
+                padding-left: 22px;
             }
 
             div.navbar-left-content .title-link {
@@ -64,6 +65,7 @@
                 font-size: 21px;
                 font-weight: 500;
                 font-family: sans-serif;
+                
                 /*                margin-top: 40px;
                                 padding-top: 40px;*/
                 /*margin-bottom: auto;*/
@@ -78,6 +80,7 @@
                 flex-direction: row;
                 justify-content: flex-end;
                 align-items: center;
+                padding-right: 22px;
             }
 
             div.navbar-right-content span.overview {
@@ -85,12 +88,14 @@
                 font-family: sans-serif;
                 font-size: 12px;
                 margin: 0px 10px 0px 10px;
+                
             }
             div.navbar-right-content a.access-link {
                 color: #1d1d1f;
                 font-family: sans-serif;
                 font-size: 12px;
                 margin: 0px 10px 0px 10px;
+                
             }
             div.navbar-right-content a.access-link:hover {
                 color: #0070c9;
@@ -102,6 +107,7 @@
                 padding: 4px 11px 4px 11px;
                 border-radius: 12px;
                 color: white;
+                margin-right: 0px;
             }
             div.navbar-right-content a.access-button:hover {
                 background-color: #0070c9;
@@ -131,7 +137,7 @@
                     <span class="overview">Overview</span>
                     <a class="access-link">macOS</a>
                     <a class="access-link">Tech Specs</a>
-                    <a class="access-link access-button">Buy</a>
+                    <a class="access-link access-button ">Buy</a>
                 </div>
             </div>
         </div>
