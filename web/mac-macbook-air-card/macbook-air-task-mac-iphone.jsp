@@ -611,9 +611,8 @@
 
         </div>
         <script>
-             window.onscroll = function () {
-                rotateHand();
-            };
+            window.addEventListener('scroll', rotateHand);
+            
             var contentStartHeight= document.getElementById("image-scroll-change");
             var startHeight= parseFloat(contentStartHeight.offsetTop-100);
             var endHeight = parseFloat(contentStartHeight.offsetTop+contentStartHeight.offsetHeight-10);

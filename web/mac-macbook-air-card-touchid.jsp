@@ -141,10 +141,8 @@
 
 
         <script>
-            window.onscroll = function () {
-                rotateHandImage();
-            };
-
+            window.addEventListener('scroll', rotateHandImage);
+            
             var wrapper = document.getElementById("touchid-header-container");
             var startFlag = parseFloat(wrapper.offsetTop - 100);
             var endFlag = parseFloat(wrapper.offsetTop + wrapper.offsetHeight - 10);

@@ -121,7 +121,7 @@
         </style>
 
     <body>
-        <%@include file="global-navbar.jsp" %>
+        
         <div id="local-navbar" class="navbar-wrapper">
             <!--navbar theme-->
             <div id="navbar-theme" class="navbar-theme"></div>
@@ -144,9 +144,9 @@
         
         <script>
 
-            window.onscroll = function () {
-                setFixedNavbar();
-            };
+            
+            window.addEventListener('scroll', setFixedNavbar);
+            
             var navbarWrapper = document.getElementById("local-navbar");
             var navbarContainer = document.getElementById("navbar-content");
 //            var navbarTheme = document.getElementById("navbar-theme");
