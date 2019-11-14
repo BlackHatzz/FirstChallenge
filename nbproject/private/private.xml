@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-retina.jsp</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-speaker.jsp</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-feature-intro-card-content.jsp</file>
@@ -30,6 +31,10 @@
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/src/java/huynd/dtos/MacbookAirFeatureIntroCardDTO.java</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-macos.jsp</file>
             <file>file:/Users/nguyenduchuy/NetBeansProjects/FirstChallenge/web/mac-macbook-air-card-touchid.jsp</file>
+=======
+            <file>file:/C:/Users/SE130162/Desktop/test/FirstChallenge/web/mac-macbook-air.jsp</file>
+            <file>file:/C:/Users/SE130162/Desktop/test/FirstChallenge/web/mac-macbook-air-card/macbook-air-task-mac-iphone.jsp</file>
+>>>>>>> 443e27985cc2d5e49e5185a420e60d4f184f6394
         </group>
     </open-files>
 </project-private>
