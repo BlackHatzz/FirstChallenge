@@ -203,14 +203,14 @@
                 margin: 100px auto 0 auto;
             }
             .wrapper-container{
-                width: 1349px;
+                width: 100%;
                 height: auto;
                 margin: 0 auto 0 auto;
                 background-color: #fafafa;
                 
             }
             .super-container{
-                width: 1349px;
+                width: 100%;
                 height: 2100px;                
                 background-color: #fafafa;
                 overflow: hidden;
@@ -450,7 +450,7 @@
                             <li>
                                 <figure>
                                     <div class="image-list-icon" style="background-image: url('./images/mac/macbook-air/icon_pages__dixdeymd36mq_large.png')"></div>
-                                    <   figcaption>Pages</figcaption>
+                                    <figcaption>Pages</figcaption>
                                 </figure>
                             </li>
                             <li>
@@ -504,7 +504,7 @@
         </div>
         <!--Apple Trade in-->
         <div class="wrapper-container">
-            <div class="section-content-row" style="border: none;">
+            <div class="section-content-row" style="border: none;background-color: #fafafa">
                 <h2>
                     <p class="headline-content">Apple Trade In</p>
                     <span class="title-price">Get up to $2530 toward a new MacBook Air.</span>

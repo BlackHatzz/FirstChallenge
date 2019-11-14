@@ -20,8 +20,9 @@
         <style>
             .macbook-air-container-image{
                 width: 100%;
-                height: 400px;
+                height: 200px;
                 margin-top: 30px;
+                padding-top: 100px;
             }
             .macbook-air-box-image{
                 width: 72.9%;
@@ -55,7 +56,7 @@
                 align-items: center;
                 justify-content: center;
                 align-content: center;
-                background-color: rgba(250,250,250,0.9);
+                background-color: #FAFAFA;
                 margin-bottom: 120px;
             }
             .macbook-air-smallbox-content{
@@ -125,21 +126,24 @@
                 </figure>  
             </div>
         </div>
-        <div class="macbook-air-box-content">
-            <h1 class="super-title"><%=superTitle%></h1>
-            <div class="macbook-air-smallbox-content">
-                <p class="intro-elevated"><%=subTitle%></p>
-                <p class="link-intro-elevated">
-                    <a  href="#" >
-                        <span class="over-link"><a style="color: #0070c9;">
-                                <%=linkTitle%>
-                            </a>Icon</span>
-                    </a>
+        <div style="background-color: #fafafa; width: 100%; height: auto;">
+            <div class="macbook-air-box-content" >
+                <h1 class="super-title"style="padding-top: 50px"><%=superTitle%></h1>
+                <div class="macbook-air-smallbox-content">
+                    <p class="intro-elevated"><%=subTitle%></p>
+                    <p class="link-intro-elevated">
+                        <a  href="#" >
+                            <span class="over-link"><a style="color: #0070c9;">
+                                    <%=linkTitle%>
+                                </a>Icon</span>
+                        </a>
 
 
-                </p>
-                <p class="detail-price-intro"><%=priceTitle%></p>
-            </div>
+                    </p>
+                    <p class="detail-price-intro"><%=priceTitle%></p>
+                </div>
+            </div>    
         </div>
+
     </body>
 </html>

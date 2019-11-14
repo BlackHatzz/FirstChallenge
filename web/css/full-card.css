@@ -8,16 +8,7 @@ and open the template in the editor.
     Author     : SE130162
 */
 
-body {
-    font-size: 17px;
-    line-height: 1.47059;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    font-family: sans-serif;
-    background-color: #fff;
-    color: #333;
-    font-style: normal;
-}
+
 div.full-Card{
     display: flex;
     flex-direction: column;
@@ -117,17 +108,13 @@ figure.full-Card5{
     background-repeat: no-repeat;
 }
 figure.full-Card6{
-
     background-size: cover;
-
     width: 980px;
     height: 726px;
     background-repeat: no-repeat;
 }
 figure.full-Card7{
-
     background-size: cover;
-
     width: 1374px;
     height: 493px;
     background-repeat: no-repeat;

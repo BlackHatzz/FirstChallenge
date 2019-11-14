@@ -94,7 +94,7 @@
         if (windowY >= startHeight && windowY <= endHeight) {
             var ratioY = (windowY - startHeight) / (endHeight - startHeight);
             console.log(ratioY);
-            var rotate = 20 - parseFloat(40 * (ratioY + 0.045));
+            var rotate = 24 - parseFloat(40 * (ratioY + 0.045));
             console.log(rotate);
             mainChange.style.transform = "rotate(" + rotate + "deg)";
         }
