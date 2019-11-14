@@ -75,7 +75,7 @@
     </head>
     <body>
 
-        <div id="touchid-wrapper" class="feature-intro-wrapper">
+        <div id="touchid-wrapper" class="feature-intro-wrapper" style="background-color: #F9F9F9">
             <div class="feature-intro-container">
 
 

@@ -16,7 +16,7 @@
     </head>
     <body>
 
-        <div class="feature-intro-wrapper">
+        <div class="feature-intro-wrapper" style="background-color: #F9F9F9">
             <div class="feature-intro-container">
                 <div class="title-container">
                     <span class="title-font title">Speakers and Camera</span><br>
