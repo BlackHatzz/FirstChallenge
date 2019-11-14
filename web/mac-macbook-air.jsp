@@ -31,13 +31,14 @@
         
         <%@include file="mac-macbook-air-card/airImages.jsp" %>
         
-        <%@include file="mac-macbook-air-card-retina.jsp"%>
-        <%@include file="mac-macbook-air-card-touchid.jsp" %>
-        <%@include file="mac-macbook-air-card-keyboard.jsp"%>
-        <%@include file="mac-macbook-air-card-thunderbolt.jsp"%>
-        <%@include file="mac-macbook-air-card-speaker.jsp" %>
-        <%@include file="mac-macbook-air-card-materials.jsp" %>
-        <%@include file="mac-macbook-air-card-macos.jsp" %>
+        <%@include file="mac-macbook-air-card/retina.jsp"%>
+        <%@include file="mac-macbook-air-card/touchid.jsp" %>
+        <%@include file="mac-macbook-air-card/keyboard.jsp"%>
+        
+        <%@include file="mac-macbook-air-card/thunderbolt.jsp"%>
+        <%@include file="mac-macbook-air-card/speaker.jsp" %>
+        <%@include file="mac-macbook-air-card/materials.jsp" %>
+        <%@include file="mac-macbook-air-card/macos.jsp" %>
 
         <!--        <div style="width: 100%; height: auto; background-color: green;">
                     <figure style="width: auto; height: auto; will-change: transform; transform: rotate(12deg)">
@@ -46,7 +47,7 @@
                     </figure>
                 </div>-->
         <%@include file="mac-macbook-air-card/macbook-air-task-mac-iphone.jsp" %>
-        
+        <%@include file="mac-macbook-air-card/performance.jsp" %>
     </body>
    
 </html>

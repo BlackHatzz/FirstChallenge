@@ -143,7 +143,6 @@
         </div>
         
         <script>
-
             
             window.addEventListener('scroll', setFixedNavbar);
             
